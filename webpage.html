@@ -3,45 +3,115 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>OverWatch FanPage</title>
+    <title>Overwatch FanPage</title>
 
     <!-- Adding in the PureCSS BoilerPlate-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" crossorigin="anonymous">
     <!--Controls viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CSS Link-->
+    <link rel="stylesheet" href="webpage.css">
 
 </head>
 
 <body>
+
+
     <div class="pure-menu pure-menu-horizontal">
         <a href="index.html" class="pure-menu-heading pure-menu-link">Player List</a>
         <ul class="pure-menu-list">
             <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">News</a>
+                <a href="https://playoverwatch.com/en-us/" class="pure-menu-link"><i>Overwatch Website</i></a>
             </li>
             <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">Sports</a>
-            </li>
-            <li class="pure-menu-item">
-                <a href="#" class="pure-menu-link">Finance</a>
+                <a href="https://www.youtube.com/watch?v=dZl1yGUetjI" class="pure-menu-link"><i>Overwatch 2
+                        Trailer</i></a>
             </li>
         </ul>
     </div>
     <div class="pure-g">
-        <div class="pure-u-1-3">
-            <h1>Damage</h1>
-            <p>These heroes specialize in high damage output with flashy ultimates that are sure to impress. Most damage
-                heroes have decent health (ranging from 150 - 250 HP)</p>
-        </div>
-        <div class="pure-u-1-3">
-            <p>Thirds</p>
-        </div>
-        <div class="pure-u-1-3">
-            <p>Thirds</p>
+        <div class="pure-u-5-5">
+            <h1 id="mainTitle">OVERWATCH</h1>
         </div>
     </div>
-    <a class="pure-button" href="#">A Pure Button</a>
-    <button class="pure-button">A Pure Button</button>
+    <div class="pure-g" id="synopsisSection">
+        <div class="pure-u-5-5">
+            <h1>Synopsis</h1>
+            <p class="outsideP">Overwatch is a team-based multiplayer first-person shooter developed and published by
+                Blizzard
+                Entertainment. Described as a "hero shooter", Overwatch assigns players into two teams of six, with each
+                player selecting from a roster of over 30 characters, known as "heroes", each with a unique style of
+                play that is divided into three general roles that fit their purpose. Players on a team work together to
+                secure and defend control points on a map or escort a payload across the map in a limited amount of
+                time.</p>
+        </div>
+    </div>
+    <div class="pure-g" id="roleDetails">
+        <div class="pure-u-1-3">
+            <h1>Damage</h1>
+            <img src="Overwatch-Best-Offense-Heroes.jpg" alt="Offense Heroes">
+            <p>These heroes specialize in high damage output with flashy ultimates that are sure to impress. Most damage
+                heroes have decent health (ranging from 150 - 250 HP), but their main role is to harras the enemy team
+                with damage, forcing them to retreat and heal themselves. A good damage player knows when to intiate a
+                fight, and when to pull back and help your team. P.S. - please stop picking Genji, Hanzo, & WidowMaker.
+                You're not as good with them as you think.
+            </p>
+        </div>
+        <div class="pure-u-1-3">
+            <h1>Tanks</h1>
+            <img src="Overwatch-Tanks-1.jpg" alt="Tanks">
+            <p>Tanks are the trickest to pinpoint out of all the classes in <i>Overwatch</i>. While damage and support
+                have mainly one role respectively, tanks can flex around between any role. Some tanks can put out damage
+                that rivals that of the damage dealers while others can support their team through damage buffs and
+                such. Overall the tanks main job is to either push foward the attack or hold down the line. You'll
+                always see them first, unless it's a ninja Roadhog hiding in the corner to pull you into the Ilios well.
+            </p>
+        </div>
+        <div class="pure-u-1-3">
+            <h1>Supports</h1>
+            <img src="overwatch.jpg" alt="Supports">
+            <p>ONLY THE BEST CLASS IN OVERWATCH. THE GAME IS LITERALLY UNPLAYABLE WITHOUT ONE OF THE ASSHOLES. But in
+                all seriousness, the support class is perhaps the most vital in the entire game. Their overall job is to
+                keep their teammates alive throughout the match (despite the Genji trying to flank the entire enemy team
+                alone). Supports are true team players, sacrificing the glory of the kill for the glory of the win,
+                which is a much sweeter taste. Play support if want to win, but be prepared for the 148/150HP Tracer
+                complaining that you haven't healed them yet.</p>
+        </div>
+    </div>
+    <div class="video-div pure-g">
+        <div class="pure-u-5-5">
+            <h2><i>Overwatch Cinematic Trailer</i></h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FqnKB22pOC0" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen id="trailerVid"></iframe>
+        </div>
+
+    </div>
+
+    <form class="pure-form pure-form-stacked">
+        <fieldset class="formsection">
+            <legend>
+                <h1>Member Login</h1>
+            </legend>
+            <h3 class="outsideP">I'm not really sure what this is for cuz I'll NEVER email back, but it looks like fun
+                so
+                have at it!
+            </h3>
+            <label for="stacked-email" class="outsideP">Email</label>
+            <input type="email" id="stacked-email" placeholder="Email" />
+            <span class="pure-form-message outsideP">This is a required field.</span>
+            <label for="stacked-password" class="outsideP">Password</label>
+            <input type="password" id="stacked-password" placeholder="Password" />
+            <button type="submit" class="pure-button pure-button-primary" id="signIn">Sign in</button>
+
+            <div>
+                <p class="outsideP">Last Password Used</p>
+                <div id="lastPassword" class="outsideP"></div>
+            </div>
+        </fieldset>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="webpage.js"></script>
 
 
 </body>

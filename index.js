@@ -42,6 +42,21 @@ $.ajax(settings).done(function (response) {
 
     $(".player12").text("Player Name: " + response[11].player.tag + ", Position: " + response[11].role + ", Platform: " + response[11].player.platform);
 
+    //here Im going to append a class to the div
+    $("player1").addClass("playerClass");
+    $("player2").addClass("playerClass");
+    $("player3").addClass("playerClass");
+    $("player4").addClass("playerClass");
+    $("player5").addClass("playerClass");
+    $("player6").addClass("playerClass");
+    $("player7").addClass("playerClass");
+    $("player8").addClass("playerClass");
+    $("player9").addClass("playerClass");
+    $("player10").addClass("playerClass");
+    $("player11").addClass("playerClass");
+    $("player12").addClass("playerClass");
+
+
 
 })
 

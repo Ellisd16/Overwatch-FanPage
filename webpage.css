@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+#mainTitle{
+    font-size: 150px;
+}
+h1, h2{
+    color: rgb(255, 123, 0);
+    text-align: center;
+    
+}
+#synopsisSection{
+    margin-bottom: 30px;
+}
+.pure-menu-link{
+    color: rgb(255, 123, 0)
+}
+p{
+    color: black;
+    text-indent: 35px;
+    line-height: 1.5;
+}
+#roleDetails{
+    background-color: rgb(112, 112, 112);
+    margin: auto;
+}
+#trailerVid{
+    margin: 0 auto;
+    display: block;
+}
+.formsection{
+    margin: 0 auto;
+    display: block;
+}
+.outsideP, h3{
+    color: white;
+
+}
+.rememberBtn{
+    color: white;
+}
+#lastPassword{
+   margin: 30px;
+}
+h3{
+    text-align: center;
+}

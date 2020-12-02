@@ -1,8 +1,18 @@
+body{
+   background-color:  rgb(112, 112, 112);
+}
+
 p{
     text-align: center;
 }
+.pure-menu-link{
+    color: rgb(255, 123, 0);
+}
+.pure-menu{
+    background-color:  rgb(31, 31, 31);
+}
 
 
-.playerName{
-    text-align: center;
+.playerClass{
+    color: orange;
 }
