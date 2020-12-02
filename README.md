@@ -8,7 +8,9 @@ For the html of the page, I didn't do anything overly complicated. Alot of the f
 
 ## Javascript 
 
-For the Javascript, I utilized local storage at the bottom of the home page to show the user the last password they used and to save their inputs into their local storage. 
+For the Javascript, I utilized local storage at the bottom of the home page to show the user the last password they used and to save their inputs into their local storage. (In order to see the last password you have to refresh the page)
+
+![localstoragepic](https://user-images.githubusercontent.com/70980600/100818833-c897ca00-33ff-11eb-902c-6689788e0397.png)
 
 ## JQuery & APIs
 
