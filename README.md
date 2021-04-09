@@ -14,7 +14,7 @@ For the Javascript, I utilized local storage at the bottom of the home page to s
 
 ## JQuery & APIs
 
-Unfortunately I was only able to use one API that gave me alot of trouble and took up alot of my time. On the Global Players page, I utilized an Overwatch API that would should the user some of the top players in the world, including their player role and their chosen platform. 
+Using JQuery, I made an API call to an Overwatch API that pulls data on some of the top players in the game! I want to explore the APU a little more and see what else I can pull!
 
 ## Webpage Link
 https://ellisd16.github.io/Overwatch-FanPage/webpage.html
